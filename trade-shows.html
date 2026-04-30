@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/png" href="media/logolong.png">
+<script>var _lang=(document.cookie.match(/highs_lang=([^;]+)/)||[])[1]||localStorage.getItem("highs_lang")||"en";document.documentElement.lang=_lang||"en";window._initLang=function(l){if(l&&["en","it","fr","de","es"].includes(l)){document.cookie="highs_lang="+l+"; path=/; max-age=31536000; SameSite=Lax";document.documentElement.lang=l;try{localStorage.setItem("highs_lang",l)}catch(e){}}};</script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>HIGHS Professional — Multi-Functional Spa Chairs for Beauty Salons</title>
+  <meta name="description" content="HIGHS designs and manufactures world-renowned multi-functional spa chairs for beauty salons and spas. 6 models. 50+ countries.">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+</head>
+<body class="home">
+
+<!-- ── MOBILE MENU ── -->
+<div class="nav__mobile" id="mobileMenu">
+  <button class="nav__mobile-close" id="mobileMenuClose" aria-label="Close menu">
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="3" x2="17" y2="17"/><line x1="17" y1="3" x2="3" y2="17"/></svg>
+  </button>
+  <a href="index.html" data-i18n="nav_home">Home</a>
+  <a href="products.html" data-i18n="nav_products">Products</a>
+  <a href="compare.html" data-i18n="nav_compare">Compare</a>
+  <a href="about.html" data-i18n="nav_about">About</a>
+  <a href="events.html" data-i18n="nav_events">Events</a>
+  <a href="contact.html" data-i18n="nav_contact">Contact</a>
+</div>
+
+<!-- ── HERO (nav lives inside this) ── -->
+<div class="hero-static">
+  <nav class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo"><img src="media/logolong.png" alt="HIGHS Professional" height="56"></a>
+      <ul class="nav__links">
+        <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+        <li><a href="products.html" data-i18n="nav_products">Products</a></li>
+        <li><a href="compare.html" data-i18n="nav_compare">Compare</a></li>
+        <li><a href="about.html" data-i18n="nav_about">About</a></li>
+        <li><a href="events.html" data-i18n="nav_events">Events</a></li>
+        <li><a href="contact.html" data-i18n="nav_contact">Contact</a></li>
+      </ul>
+      <div class="lang-selector" id="langSelector">
+        <button class="lang-selector__btn" aria-label="Select language" aria-haspopup="listbox" aria-expanded="false">
+          <svg class="lang-selector__icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          <span class="lang-selector__label">EN</span>
+          <svg class="lang-selector__arrow" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <ul class="lang-selector__dropdown" id="langDropdown" role="listbox">
+          <li class="lang-option" data-lang="en" role="option"><span class="lang-option__native">English</span><span class="lang-option__check">✓</span></li>
+          <li class="lang-option" data-lang="it" role="option"><span class="lang-option__native">Italiano</span><span class="lang-option__check">✓</span></li>
+          <li class="lang-option" data-lang="fr" role="option"><span class="lang-option__native">Français</span><span class="lang-option__check">✓</span></li>
+          <li class="lang-option" data-lang="de" role="option"><span class="lang-option__native">Deutsch</span><span class="lang-option__check">✓</span></li>
+          <li class="lang-option" data-lang="es" role="option"><span class="lang-option__native">Español</span><span class="lang-option__check">✓</span></li>
+        </ul>
+      </div>
+      <button class="nav__hamburger" id="hamburger" aria-label="Open menu">
+        <span class="nav__hamburger__line"></span>
+        <span class="nav__hamburger__line"></span>
+        <span class="nav__hamburger__line"></span>
+      </button>
+    </div>
+  </nav>
+  <img src="media/hero-homepage.jpg" alt="HIGHS Professional" class="hero-static__img">
+  <div class="hero-static__content">
+    <div class="hero-static__eyebrow" data-i18n="hero_eyebrow"></div>
+    <div class="hero-title-block">
+      <p class="hero-title-line1" data-i18n="hero_title1">Multi-Functional Spa Chair.</p>
+      <p class="hero-title-line2" data-i18n="hero_title2">One Chair. Multiple Services. Higher Revenue.</p>
+    </div>
+    <div class="hero-static__trust" data-i18n="hero_trust"></div>
+    <div class="hero-static__actions">
+      <a href="products.html" class="btn btn-white" data-i18n="hero_cta1">View All Chairs</a>
+      <a href="contact.html" class="btn btn-outline-white" data-i18n="hero_cta2">Get a Quote</a>
+    </div>
+  </div>
+</div>
+
+<!-- ── IMAGE SHOWCASE SLIDER ── -->
+<section class="showcase-slider">
+  <div class="showcase-slider__track" id="showcaseTrack">
+    <div class="showcase-slide"><img src="media/slider-1.jpg" alt="Hair Salon" draggable="false"><span class="showcase-slide__label" data-i18n="slider_hair">Hair Salon</span></div>
+    <div class="showcase-slide"><img src="media/slider-2.jpg" alt="Skin Care &amp; Spa" draggable="false"><span class="showcase-slide__label" data-i18n="slider_skin">Skin Care &amp; Spa</span></div>
+    <div class="showcase-slide"><img src="media/slider-3.jpg" alt="Luxury Hotel Spa" draggable="false"><span class="showcase-slide__label" data-i18n="slider_hotel">Luxury Hotel Spa</span></div>
+    <!-- duplicate set for seamless loop -->
+    <div class="showcase-slide"><img src="media/slider-1.jpg" alt="Hair Salon" draggable="false"><span class="showcase-slide__label" data-i18n="slider_hair">Hair Salon</span></div>
+    <div class="showcase-slide"><img src="media/slider-2.jpg" alt="Skin Care &amp; Spa" draggable="false"><span class="showcase-slide__label" data-i18n="slider_skin">Skin Care &amp; Spa</span></div>
+    <div class="showcase-slide"><img src="media/slider-3.jpg" alt="Luxury Hotel Spa" draggable="false"><span class="showcase-slide__label" data-i18n="slider_hotel">Luxury Hotel Spa</span></div>
+  </div>
+</section>
+
+<script>window.addEventListener('load',function(){var track=document.getElementById('showcaseTrack');if(!track)return;var slides=track.querySelectorAll('.showcase-slide');if(slides.length<=1)return;var duration=28000;var pos=0;var lastTs=null;function getSlideWidth(){return slides[0].offsetWidth}function resetLoop(){pos=0;lastTs=null}function step(ts){if(lastTs===null)lastTs=ts;var elapsed=ts-lastTs;lastTs=ts;var sw=getSlideWidth();var half=(sw*slides.length)/2;pos+=(elapsed/duration)*half;if(pos>=half){pos=0}track.style.transform='translateX(-'+pos+'px)';rid=requestAnimationFrame(step)}var rid=requestAnimationFrame(step);window.addEventListener('resize',resetLoop);});</script>
+
+<!-- ── TRUST BAR ── -->
+<div class="trust-bar">
+  <div class="container">
+    <div class="trust-bar__grid">
+      <div class="trust-stat">
+        <div class="trust-stat__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+        </div>
+        <div class="trust-stat__number">26+</div>
+        <div class="trust-stat__label" data-i18n="trust_years">Years of Expertise</div>
+      </div>
+      <div class="trust-stat">
+        <div class="trust-stat__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+        </div>
+        <div class="trust-stat__number">50000+</div>
+        <div class="trust-stat__label" data-i18n="trust_salons">Salons Worldwide</div>
+      </div>
+      <div class="trust-stat">
+        <div class="trust-stat__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        </div>
+        <div class="trust-stat__number">50+</div>
+        <div class="trust-stat__label" data-i18n="trust_countries">Countries Served</div>
+      </div>
+      <div class="trust-stat">
+        <div class="trust-stat__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <div class="trust-stat__number">CE & FCC</div>
+        <div class="trust-stat__label" data-i18n="trust_cert">Certified</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ── PRODUCT RANGE ── -->
+<section class="section section--white">
+  <div class="container">
+    <div class="section-header fade-up">
+      <span class="eyebrow" data-i18n="product_range">The Range</span>
+      <h2 data-i18n="product_sub">Nine Models. Every Configuration.</h2>
+      <p data-i18n="product_sub2">From the flagship LM9 Limited with two-tone leather, to the compact plumbing-free Z8 — there's a HIGHS chair for every salon.</p>
+    </div>
+
+    <div class="product-grid">
+
+      <!-- LM9 Limited -->
+      <div class="product-card fade-up" data-category="flagship" data-href="product.html?model=lm9-limited">
+        <div class="product-card__image">
+          <img src="media/Product Card-LM9-LIMITED.png" alt="LM9 Limited" loading="lazy">
+          <span class="product-card__badge" data-i18n="product_card_flagship">Flagship</span>
+        </div>
+        <div class="product-card__body">
+          <h3 class="product-card__name" data-i18n="prod_lm9_name">LM9 Limited</h3>
+          <p class="product-card__tagline" data-i18n="prod_lm9_tag">Two-tone premium leather · Massage · Auto-drainage · 2 custom colours with embroidered logo.</p>
+          <div class="product-card__features">
+            <div class="product-card__feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg><span data-i18n="feat_lm9_leather">Two-Tone Premium Leather</span></div>
+            <div class="product-card__feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg><span data-i18n="feat_lm9_drain">Auto Drainage</span></div>
+            <div class="product-card__feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg><span data-i18n="feat_lm9_logo">Custom Logo Embroidery</span></div>
+          </div>
+          <div class="product-card__footer">
+            
+            <a href="product.html?model=lm9-limited" class="product-card__link" data-i18n="product_details">Details <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- W7 -->
+      <div class="product-card fade-up" data-category="premium" data-href="product.html?model=w7">
+        <div class="product-card__image">
+          <img src="media/W7/W7.jpg" alt="W7" loading="lazy">
+          <span class="product-card__badge" data-i18n="product_card_premium">Premium</span>
+        </div>
+        <div class="product-card__body">
+          <h3 class="product-card__name" data-i18n="prod_w7_name">W7</h3>
+          <p class="product-card__tagline" data-i18n="prod_w7_tag">Massage with a separate foot basin. Classic professional configuration.</p>
+          <div class="product-card__features">
+            <div class="product-card__feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg><span data-i18n="feat_w7_massage">Massage</span></div>
+            <div class="product-card__feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg><span data-i18n="feat_w7_basin">Separate Foot Basin</span></div>
+            <div class="product-card__feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg><span data-i18n="feat_w7_chair">Adjustable Chair</span></div>
+          </div>
+          <div class="product-card__footer">
+            
+            <a href="product.html?model=w7" class="product-card__link" data-i18n="product_details">Details <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- W8 -->
+      <div class="product-card fade-up" data-category="standard" data-href="product.html?model=w8">
+        <div class="product-card__image">
+          <img src="media/W8/W8 (1).jpg" alt="W8" loading="lazy">
+          <span class="product-card__badge" data-i18n="product_card_popular">Popular</span>
+        </div>
+        <div class="product-card__body">
+          <h3 class="product-card__name" data-i18n="prod_w8_name">W8</h3>
+          <p class="product-card__tagline" data-i18n="prod_w8_tag">High-end eco leather · Built-in basins · Magnetic jet · Manual drain.</p>
+          <div class="product-card__features">
+            <div class="product-card__feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg><span data-i18n="feat_w8_basins">Built-in Acrylic Basins</span></div>
+            <div class="product-card__feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg><span data-i18n="feat_w8_jet">Magnetic Jet System</span></div>
+            <div class="product-card__feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg><span data-i18n="feat_w8_usb">USB + Type-C Socket</span></div>
+          </div>
+          <div class="product-card__footer">
+            
+            <a href="product.html?model=w8" class="product-card__link" data-i18n="product_details">Details <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- View All -->
+    <div style="text-align:center; margin-top: 2.5rem;">
+      <a href="products.html" class="btn btn-primary" data-i18n="product_viewall">View All 9 Products →</a>
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- ── WHY HIGHS ── -->
+<section class="section">
+  <div class="container">
+    <div class="section-header fade-up">
+      <span class="eyebrow" data-i18n="why_eyebrow">Why HIGHS</span>
+      <h2 data-i18n="why_title">Engineered for reliability.<br>Designed for professionals.<br>Built for everyday salon operations.</h2>
+    </div>
+    <div class="features-grid">
+      <div class="feature-item fade-up">
+        <div class="feature-item__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <h3 data-i18n="why_cert_title">CE & FCC Certified</h3>
+        <p data-i18n="why_cert_body">Every model independently tested for electrical safety and electromagnetic compatibility. Documentation ready for import clearance worldwide.</p>
+      </div>
+      <div class="feature-item fade-up">
+        <div class="feature-item__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        </div>
+        <h3 data-i18n="why_years_title">26 Years of Refinement</h3>
+        <p data-i18n="why_years_body">Every design iteration is informed by real salon feedback. What works in Vancouver works in Dubai and Manila.</p>
+      </div>
+      <div class="feature-item fade-up">
+        <div class="feature-item__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+        </div>
+        <h3 data-i18n="why_daily_title">Built for Daily Use</h3>
+        <p data-i18n="why_daily_body">High-density foam, reinforced frames, and premium eco-leather that resists daily wear, water, and salon chemicals. Rated for 8+ hours/day.</p>
+      </div>
+      <div class="feature-item fade-up">
+        <div class="feature-item__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        </div>
+        <h3 data-i18n="why_global_title">Global Support</h3>
+        <p data-i18n="why_global_body">Showrooms in Vancouver, LA, London, and Dalian. Local agents in 50+ countries. Parts and technical support wherever you are.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── TESTIMONIAL ── -->
+<section class="section section--white">
+  <div class="container">
+    <div class="testimonial fade-up">
+      <span class="eyebrow" data-i18n="testimonial_eyebrow">What Salon Owners Say</span>
+      <blockquote class="testimonial__quote" data-i18n="testimonial_quote">
+        The moment clients see our W7 chairs, they know this isn't a regular nail salon. The quality speaks for itself — and the chairs have survived three years of daily commercial use with zero maintenance calls.
+      </blockquote>
+      <p class="testimonial__author" data-i18n="testimonial_author">— Owner, Prestige Beauty Lounge, Vancouver</p>
+    </div>
+  </div>
+</section>
+
+<!-- ── SPLIT: FACTORY & QUALITY ── -->
+<section class="split-section">
+  <div class="split-section__image">
+    <div class="split-section__image-header" style="right:1.5rem;left:auto;text-align:right;">
+      <span class="split-section__image-title" data-i18n="factory_label">Our Factory</span>
+    </div>
+    <img src="media/FACTORY.png" alt="HIGHS Factory" loading="lazy">
+  </div>
+  <div class="split-section__content">
+    <span class="eyebrow" data-i18n="factory_eyebrow">Factory &amp; Quality</span>
+    <h2 style="font-size: clamp(1.3rem, 2.5vw, 1.9rem);" data-i18n="factory_title">We Don't Make Everything.<br>We Make Spa Chairs Right.</h2>
+    <p data-i18n="factory_p1">HIGHS has been designing and manufacturing professional spa chairs since 1999. We're not a general furniture brand — we're specialists whose entire reputation rests on one product category done exceptionally well.</p>
+    <p data-i18n="factory_p2">Our 8,000 m² factory in China is powered by 100+ skilled professionals and backed by Canadian brand values: honest quality, consistent supply, and transparent pricing.</p>
+    <div class="split-section__stats">
+      <div class="split-stat">
+        <div class="split-stat__number">8,000m²</div>
+        <div class="split-stat__label" data-i18n="stat_facility">Manufacturing Facility</div>
+      </div>
+      <div class="split-stat">
+        <div class="split-stat__number">100+</div>
+        <div class="split-stat__label" data-i18n="stat_professionals">Skilled Professionals</div>
+      </div>
+      <div class="split-stat">
+        <div class="split-stat__number">50+</div>
+        <div class="split-stat__label" data-i18n="stat_countries">Countries Served</div>
+      </div>
+      <div class="split-stat">
+        <div class="split-stat__number">9</div>
+        <div class="split-stat__label" data-i18n="stat_models">Spa Chair Models</div>
+      </div>
+    <a href="about.html" class="btn btn-secondary" data-i18n="factory_cta">Our Story →</a>
+    <p class="split-section__global-note" data-i18n="factory_note">Globally present in 50+ countries — from North America to Europe, Middle East, and Asia Pacific.</p>
+  </div>
+</section>
+
+<section class="global-presence-section">
+  <div style="position:relative; display:inline-block; width:100%;">
+    <img src="media/GLOBAL PRESENCE.png" alt="Global Presence" style="width:100%; display:block; border-radius:var(--radius-lg); border:1px solid var(--border); box-shadow:0 2px 12px var(--shadow);">
+    <p style="position:absolute; top:1.5rem; left:50%; transform:translateX(-50%); font-family:var(--font-serif); font-size:clamp(1.5rem,3vw,2.5rem); font-weight:700; color:var(--navy); white-space:nowrap; margin:0; text-align:center;" data-i18n="global_presence_title">Global Presence</p>
+  </div>
+</section>
+
+<!-- ── CTA ── -->
+<section class="cta-band">
+  <div class="container">
+    <h2 data-i18n="cta_title">Ready to Upgrade Your Salon?</h2>
+    <p data-i18n="cta_body">Get a tailored quote for your salon. We ship globally and can connect you with a local distributor in your region.</p>
+    <a href="contact.html" class="btn btn-white" data-i18n="cta_btn1">Request a Quote →</a>
+    <a href="products.html" class="btn btn-outline-white" data-i18n="cta_btn2">Browse the Range</a>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <div class="footer__brand-logo"><img src="media/logolong.png" alt="HIGHS Professional" height="56"></div>
+        <p class="footer__tagline" data-i18n="footer_tagline">Designing and manufacturing professional multi-functional spa chairs. Headquarter in Vancouver, BC.</p>
+        <div class="footer__logo-row">
+          <span class="footer__cert-small">CE</span>
+          <span class="footer__cert-small">FCC</span>
+          <span class="footer__cert-small">ISO 9001</span>
+        </div>
+      </div>
+
+      <div class="footer__col">
+        <div class="footer__col-title" data-i18n="footer_products">Products</div>
+        <ul class="footer__links">
+          <li><a href="products.html" data-i18n="footer_allchairs">All Chairs</a></li>
+          <li><a href="compare.html" data-i18n="footer_comparem">Compare Models</a></li>
+          <li><a href="accessories.html" data-i18n="footer_accessories">Accessories</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <div class="footer__col-title" data-i18n="footer_company">Company</div>
+        <ul class="footer__links">
+          <li><a href="about.html" data-i18n="footer_about">About HIGHS</a></li>
+          <li><a href="events.html" data-i18n="footer_events">Latest Events</a></li>
+          <li><a href="certificates.html" data-i18n="footer_cert">Certification</a></li>
+          <li><a href="https://docs.google.com/gview?url=https://highs-spachair.com/media/2026-HIGHS%20SPA%20CHAIR%20CATALOG.pdf&embedded=true" target="_blank" rel="noopener" data-i18n="footer_catalog">Download Catalog</a></li>
+          <li><a href="contact.html" data-i18n="footer_contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <div class="footer__col-title" data-i18n="footer_contact">Contact</div>
+        <ul class="footer__links">
+          <li><a href="tel:+1-778-714-0320">778-714-0320 (BC)</a></li>
+          <li><a href="tel:+1-949-527-1258">949-527-1258 (LA)</a></li>
+          <li data-i18n="footer_addr">Vancouver, BC. Canada</li>
+          <li><a href="/cdn-cgi/l/email-protection#acc5c2cac3ecc4c5cbc4df81dfdccdcfc4cdc5de82cfc3c1"><span class="__cf_email__" data-cfemail="84edeae2ebc4ecede3ecf7a9f7f4e5e7ece5edf6aae7ebe9">[email&#160;protected]</span></a></li>
+          <li><a href="partner.html" data-i18n="footer_partner">Distribution Partnership Inquiry</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <div class="footer__bottom-left">
+        <a href="https://www.instagram.com/highsprofessional" target="_blank" rel="noopener" class="footer__instagram" aria-label="HIGHS on Instagram">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="20" x="2" y="2" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+          @highsprofessional
+        </a>
+        <a href="https://www.tiktok.com/@HIGHSSPACHAIR" target="_blank" rel="noopener" class="footer__instagram" aria-label="HIGHS on TikTok" >
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg>
+          @HIGHSSPACHAIR
+        </a>
+      </div>
+      <span data-i18n="footer_copy">© 2026 HIGHS PROFESSIONAL. All rights reserved.</span>
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/app.js"></script>
+<script src="js/translations.js"></script>
+<script>
+/* ═══════════════════════════════════════════════════════════
+   HIGHS Spa Chairs — i18n System
+   Languages: EN, IT, FR, DE, ES
+   ═══════════════════════════════════════════════════════════ */
+
+Object.assign(translations, {
+  en: {
+    /* NAV */
+    nav_home: "Home", nav_products: "Products", nav_compare: "Compare",
+    nav_about: "About", nav_events: "Events", nav_contact: "Contact",
+    /* HERO */
+    hero_eyebrow: "",
+    hero_title1: "Multi-Functional Spa Chair.",
+    hero_title2: "One Chair. Multiple Services. Higher Revenue.",
+    hero_trust: "",
+    global_presence_title: "Global Presence",
+    hero_cta1: "View All Chairs", hero_cta2: "Get a Quote",
+    /* SLIDER */
+    slider_hair: "Hair Salon", slider_skin: "Skin Care & Spa", slider_hotel: "Luxury Hotel Spa",
+    slider_lounge: "Beauty Lounge", slider_nail: "Nail Salon",
+    /* TRUST BAR */
+    trust_years: "Years of Expertise", trust_salons: "Salons Worldwide",
+    trust_countries: "Countries Served", trust_cert: "Certified",
+    /* PRODUCTS (index) */
+    product_range: "The Range",
+    product_sub: "Nine Models. Every Configuration.",
+    product_sub2: "From the flagship LM9 Limited with two-tone leather, to the compact plumbing-free Z8 — there's a HIGHS chair for every salon.",
+    product_viewall: "View All 9 Products →", product_details: "Details",
+    product_card_flagship: "Flagship", product_card_premium: "Premium",
+    product_card_popular: "Popular", product_card_new: "New", prod_msrp: "MSRP",
+    /* PRODUCT FEATURES */
+    feat_lm9_leather: "Two-Tone Premium Leather", feat_lm9_drain: "Auto Drainage",
+    feat_lm9_logo: "Custom Logo Embroidery",
+    feat_w7_massage: "Massage", feat_w7_basin: "Separate Foot Basin", feat_w7_chair: "Adjustable Chair",
+    feat_w8_basins: "Built-in Acrylic Basins", feat_w8_jet: "Magnetic Jet System", feat_w8_usb: "USB + Type-C Socket",
+    /* PRODUCT CARDS */
+    prod_lm9_name: "LM9 Limited",
+    prod_lm9_tag: "Two-tone premium leather · Massage · Auto-drainage · 2 custom colours with embroidered logo.",
+    prod_w7_name: "W7",
+    prod_w7_tag: "Massage with a separate foot basin. Classic professional configuration.",
+    prod_w8_name: "W8",
+    prod_w8_tag: "High-end eco leather · Built-in basins · Magnetic jet · Manual drain.",
+    /* WHY HIGHS */
+    why_eyebrow: "Why HIGHS",
+    why_title: "Engineered for reliability.<br>Designed for professionals.<br>Built for everyday salon operations.",
+    why_cert_title: "CE & FCC Certified",
+    why_cert_body: "Every model independently tested for electrical safety and electromagnetic compatibility. Documentation ready for import clearance worldwide.",
+    why_years_title: "26 Years of Refinement",
+    why_years_body: "Every design iteration is informed by real salon feedback. What works in Vancouver works in Dubai and Manila.",
+    why_daily_title: "Built for Daily Use",
+    why_daily_body: "High-density foam, reinforced frames, and premium eco-leather that resists daily wear, water, and salon chemicals. Rated for 8+ hours/day.",
+    why_global_title: "Global Support",
+    why_global_body: "Showrooms in Vancouver, LA, London, and Dalian. Local agents in 50+ countries. Parts and technical support wherever you are.",
+    /* TESTIMONIAL */
+    testimonial_eyebrow: "What Salon Owners Say",
+    testimonial_quote: "The moment clients see our W7 chairs, they know this isn't a regular nail salon. The quality speaks for itself — and the chairs have survived three years of daily commercial use with zero maintenance calls.",
+    testimonial_author: "— Owner, Prestige Beauty Lounge, Vancouver",
+    /* FACTORY */
+    factory_label: "Our Factory", factory_eyebrow: "Factory & Quality",
+    factory_title: "We Don't Make Everything.<br>We Make Spa Chairs Right.",
+    factory_p1: "HIGHS has been designing and manufacturing professional spa chairs since 1999. We're not a general furniture brand — we're specialists whose entire reputation rests on one product category done exceptionally well.",
+    factory_p2: "Our 8,000 m² factory in China is powered by 100+ skilled professionals and backed by Canadian brand values: honest quality, consistent supply, and transparent pricing.",
+    stat_facility: "Manufacturing Facility", stat_professionals: "Skilled Professionals",
+    stat_countries: "Countries Served", stat_models: "Spa Chair Models",
+    factory_cta: "Our Story →",
+    factory_note: "Globally present in 50+ countries — from North America to Europe, Middle East, and Asia Pacific.",
+    /* CTA */
+    cta_title: "Ready to Upgrade Your Salon?",
+    cta_body: "Get a tailored quote for your salon. We ship globally and can connect you with a local distributor in your region.",
+    cta_btn1: "Request a Quote →", cta_btn2: "Browse the Range",
+    /* FOOTER */
+    footer_products: "Products", footer_allchairs: "All Chairs", footer_comparem: "Compare Models",
+    footer_accessories: "Accessories", footer_company: "Company", footer_about: "About HIGHS",
+    footer_events: "Latest Events", footer_cert: "Certification", footer_catalog: "Download Catalog",
+    footer_contact: "Contact",
+    footer_tagline: "Designing and manufacturing professional multi-functional spa chairs. Headquarter in Vancouver, BC.",
+    footer_phone_bc: "778-714-0320 (BC)", footer_phone_la: "949-527-1258 (LA)",
+    footer_addr: "Vancouver, BC. Canada",
+    footer_email: "info@highs-spachair.com",
+    footer_partner: "Distribution Partnership Inquiry",
+    footer_copy: "© 2026 HIGHS PROFESSIONAL. All rights reserved.",
+    /* PRODUCTS PAGE */
+    prod_eyebrow: "The Range",
+    prod_herotitle: "Nine Models. Every Salon.<br>One Brand.",
+    prod_also: "Also Available",
+    prod_acc: "Accessories & Consumables",
+    prod_filt_all: "All Models", prod_filt_flagship: "Flagship", prod_filt_hairwash: "Hair Wash",
+    prod_filt_premium: "Premium", prod_filt_standard: "Standard", prod_filt_plumbing: "Plumbing-Free",
+    /* COMPARE PAGE */
+    comp_eyebrow: "Side by Side",
+    comp_herotitle: "Compare All Models",
+    comp_table_title: "Model Comparison",
+    comp_cta_title: "Ready to Upgrade Your Salon?",
+    /* ABOUT PAGE */
+    about_eyebrow: "About HIGHS",
+    about_herotitle: "We Make Spa Chairs.<br>We Make Them Right.",
+    about_story_eyebrow: "Our Story",
+    about_story_title: "26 Years. One Product Category. Done Exceptionally Well.",
+    about_factory_eyebrow: "Factory & Quality",
+    about_factory_title: "8,000 m². 100+ Professionals. Built for Commercial Use.",
+    about_hww_eyebrow: "How We Work",
+    about_hww_title: "The HIGHS Difference",
+    about_hww_intro: "Four principles that guide every chair we design, every supplier we choose, and every client relationship we build.",
+    about_p1_title: "Commercial Rated",
+    about_p1_body: "Every HIGHS chair is engineered for 8+ hours of daily commercial use. Not tested in a showroom — proven in real salons, every day.",
+    about_p2_title: "26 Years of Iteration",
+    about_p2_body: "Every design improvement comes from salon feedback. We don't guess — we listen to the people who use our chairs daily.",
+    about_p3_title: "Global Support",
+    about_p3_body: "Showrooms in Vancouver, LA, London, and Dalian. Local distributors in 50+ countries. Parts and technical support wherever you are.",
+    /* EVENTS PAGE */
+    events_eyebrow: "What's On",
+    events_herotitle: "Events",
+    events_upcoming: "Upcoming",
+    events_past: "Past Events",
+    events_cta_title: "Want to Meet HIGHS at an Event?",
+    events_cta_body: "Get in touch to schedule a private demonstration or visit our showroom.",
+    /* CONTACT PAGE */
+    contact_eyebrow: "Get in Touch",
+    contact_herotitle: "Request a Quote",
+    contact_form_title: "Tell Us About Your Project",
+    contact_offices_title: "Our Offices",
+    form_name: "Full Name *", form_name_ph: "Your name",
+    form_email: "Email Address *", form_email_ph: "you@salon.com",
+    form_company: "Salon / Business Name", form_company_ph: "Your salon name",
+    form_country: "Country / Region *", form_country_ph: "e.g. Canada, USA, UK",
+    form_phone: "Phone (optional)", form_phone_ph: "+1 234 567 8900",
+    form_models: "Interested Models", form_quantity: "Quantity (units)", form_quantity_ph: "e.g. 6",
+    form_message: "Project Details", form_message_ph: "Tell us about your salon: services offered, space constraints, plumbing situation, timeline, or any specific requirements...",
+    /* PARTNER PAGE */
+    partner_eyebrow: "Partner With Us",
+    partner_herotitle: "Become a HIGHS Partner",
+    partner_subtitle: "Distribution Partnership Inquiry",
+    /* CERTIFICATES PAGE */
+    cert_eyebrow: "Documentation",
+    cert_herotitle: "Certifications",
+    contact_offices_title: "Our Offices",
+    footer_tagline: "Designing and manufacturing professional multi-functional spa chairs. Headquartered in Vancouver, BC.",
+    office_dalian_addr: "Dalian, China",
+    office_dalian_email: "dalian@highs-spachair.com",
+    office_dalian_region: "Asia Pacific · Factory visits",
+    office_dalian_title: "Dalian, China",
+    office_london_addr: "Belmont House, Bow, London, UK",
+    office_london_email: "london@highs-spachair.com",
+    office_london_region: "EMEA",
+    office_london_title: "London, UK",
+    office_na_addr: "Vancouver, BC. Canada",
+    office_na_email: "info@highs-spachair.com",
+    office_na_title: "North America & Canada",
+    partner_hero_body: "Bring world-class spa chairs to your market with the backing of a trusted global brand.",
+    partner_section1: "Company Profile",
+    partner_section2: "Business Background",
+    partner_section3: "Technical Capability",
+    partner_section4: "Market Coverage",
+    partner_section5: "Showroom & Marketing",
+    partner_section6: "Business Plan",
+    partner_section7: "Contact & Service Commitment",
+    partner_submit_btn: "Submit Application",
+    partner_why_global: "Global Brand",
+    partner_why_global_body: "Established in 50+ countries. Leverage a recognised, trusted name in your market from day one.",
+    partner_why_margins: "Strong Margins",
+    partner_why_margins_body: "Competitive wholesale pricing with durable equipment your clients will trust — built to last.",
+    partner_why_support: "Technical Support",
+    partner_why_support_body: "Installation guides, after-sales support, and spare parts supply — long after the sale.",
+    submit_request: "Send Request →",
+    what_happens_response: "Response time: within 24 hours on business days.",
+    what_happens_step1: "We review your request and identify the best model for your salon",
+    what_happens_step2: "We prepare a tailored quote including shipping to your country",
+    what_happens_step3: "We connect you with a local distributor or ship directly from the factory",
+    what_happens_title: "What Happens Next?",
+    what_happens_urgent: "For urgent enquiries:",
+
+  },
+
+});
+
+/* ── Language Manager (Cookie + localStorage) ── */
+const Lang = {
+  key: 'highs_lang',
+  current: 'en',
+
+  readCookie() {
+    const m = document.cookie.match(/highs_lang=([^;]+)/);
+    return m ? m[1] : null;
+  },
+
+  saveCookie(lang) {
+    try {
+      document.cookie = 'highs_lang=' + lang + '; path=/; max-age=31536000; SameSite=Lax';
+    } catch(e) {}
+  },
+
+  init() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const urlLang = urlParams.get('lang');
+    if (urlLang && translations[urlLang]) {
+      this.current = urlLang;
+      this.saveCookie(urlLang);
+    } else {
+      this.current = this.readCookie() || localStorage.getItem(this.key) || 'en';
+    }
+    document.documentElement.lang = this.current;
+    this.apply();
+    this.bindSelector();
+  },
+
+  set(lang) {
+    if (!translations[lang]) return;
+    this.current = lang;
+    this.saveCookie(lang);
+    try { localStorage.setItem(this.key, lang); } catch(e) {}
+    this.apply();
+    this.updateButton();
+    this.closeDropdown();
+  },
+
+  apply() {
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+      const key = el.getAttribute('data-i18n');
+      if (translations[this.current][key]) {
+        el.innerHTML = translations[this.current][key];
+      }
+    });
+    document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+      const key = el.getAttribute('data-i18n-placeholder');
+      if (translations[this.current][key]) {
+        el.placeholder = translations[this.current][key];
+      }
+    });
+    // Carry ?lang= on internal nav links
+    document.querySelectorAll('a[href]').forEach(a => {
+      const href = a.getAttribute('href') || '';
+      if (href.startsWith('#') || href.startsWith('http') || href.startsWith('//') || href.startsWith('mailto') || href.startsWith('tel')) return;
+      try {
+        const url = new URL(href, window.location.href);
+        if (this.current !== 'en') {
+          if (!url.search.includes('lang=')) { url.searchParams.set('lang', this.current); a.setAttribute('href', url.pathname + url.search); }
+        } else {
+          if (url.searchParams.has('lang')) { url.searchParams.delete('lang'); a.setAttribute('href', url.pathname + url.search); }
+        }
+      } catch(e) {}
+    });
+    document.documentElement.lang = this.current;
+  },
+
+  getLabel(lang) {
+    const labels = { en: 'EN', it: 'IT', fr: 'FR', de: 'DE', es: 'ES' };
+    return labels[lang] || lang.toUpperCase();
+  },
+
+  bindSelector() {
+    const btn = document.getElementById('langSelector');
+    const dropdown = document.getElementById('langDropdown');
+    if (!btn || !dropdown) return;
+    btn.addEventListener('click', e => { e.stopPropagation(); this.toggleDropdown(); });
+    dropdown.addEventListener('click', e => e.stopPropagation());
+    dropdown.querySelectorAll('[data-lang]').forEach(item => {
+      item.addEventListener('click', () => { this.set(item.getAttribute('data-lang')); });
+    });
+    document.addEventListener('click', () => this.closeDropdown());
+    this.updateButton();
+  },
+
+  toggleDropdown() {
+    const dropdown = document.getElementById('langDropdown');
+    const btn = document.getElementById('langSelector');
+    if (!dropdown || !btn) return;
+    const isOpen = dropdown.classList.toggle('open');
+    btn.classList.toggle('active', isOpen);
+  },
+
+  closeDropdown() {
+    const dropdown = document.getElementById('langDropdown');
+    const btn = document.getElementById('langSelector');
+    if (dropdown) dropdown.classList.remove('open');
+    if (btn) btn.classList.remove('active');
+  },
+
+  updateButton() {
+    const btn = document.getElementById('langSelector');
+    if (!btn) return;
+    const label = btn.querySelector('.lang-selector__label');
+    if (label) label.textContent = this.getLabel(this.current);
+    btn.querySelectorAll('.lang-option').forEach(opt => {
+      const isActive = opt.getAttribute('data-lang') === this.current;
+      opt.classList.toggle('is-active', isActive);
+      const check = opt.querySelector('.lang-option__check');
+      if (check) check.style.display = isActive ? '' : 'none';
+    });
+  }
+};
+
+// Run immediately (DOM is already ready when this script runs synchronously)
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', () => Lang.init());
+} else {
+  Lang.init();
+}
+
+</script>
+<script>lucide.createIcons();</script>
+<!-- Lightbox -->
+<div id="lightbox" class="lightbox" aria-hidden="true">
+  <button id="lightboxClose" class="lightbox__close" aria-label="Close">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+  </button>
+  <img id="lightboxImg" class="lightbox__img" src="" alt="Full size image">
+</div>
+
+  <a href="#" class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+  </a>
+</body>
+</html>
