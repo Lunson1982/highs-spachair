@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>var _lang=(document.cookie.match(/highs_lang=([^;]+)/)||[])[1]||localStorage.getItem("highs_lang")||"en";document.documentElement.lang=_lang||"en";window._initLang=function(l){if(l&&["en","it","fr","de","es"].includes(l)){document.cookie="highs_lang="+l+"; path=/; max-age=31536000; SameSite=Lax";document.documentElement.lang=l;try{localStorage.setItem("highs_lang",l)}catch(e){}}};</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Certificates — HIGHS Professional Spa Chairs</title>
+  <meta name="description" content="HIGHS CE, FCC, and ISO 9001 certifications for professional multi-functional spa chairs.">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+</head>
+<body>
+
+<!-- ── NAV ── -->
+<nav class="nav" id="nav">
+  <div class="container nav__inner">
+    <a href="index.html" class="nav__logo"><img src="media/logolong.png" alt="HIGHS Professional" height="56"></a>
+    <ul class="nav__links">
+      <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+      <li><a href="products.html" data-i18n="nav_products">Products</a></li>
+      <li><a href="compare.html" data-i18n="nav_compare">Compare</a></li>
+      <li><a href="about.html" data-i18n="nav_about">About</a></li>
+      <li><a href="events.html" data-i18n="nav_events">Events</a></li>
+      <li><a href="contact.html" data-i18n="nav_contact">Contact</a></li>
+    </ul>
+    <div class="lang-selector" id="langSelector">
+      <button class="lang-selector__btn" aria-label="Select language" aria-haspopup="listbox" aria-expanded="false">
+        <svg class="lang-selector__icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        <span class="lang-selector__label">EN</span>
+        <svg class="lang-selector__arrow" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+      </button>
+      <ul class="lang-selector__dropdown" id="langDropdown" role="listbox">
+        <li class="lang-option is-active" data-lang="en" role="option"><span class="lang-option__native">English</span><span class="lang-option__check">✓</span></li>
+        <li class="lang-option" data-lang="it" role="option"><span class="lang-option__native">Italiano</span><span class="lang-option__check">✓</span></li>
+        <li class="lang-option" data-lang="fr" role="option"><span class="lang-option__native">Français</span><span class="lang-option__check">✓</span></li>
+        <li class="lang-option" data-lang="de" role="option"><span class="lang-option__native">Deutsch</span><span class="lang-option__check">✓</span></li>
+        <li class="lang-option" data-lang="es" role="option"><span class="lang-option__native">Español</span><span class="lang-option__check">✓</span></li>
+      </ul>
+    </div>
+    <button class="nav__hamburger" id="hamburger" aria-label="Open menu">
+      <span class="nav__hamburger__line"></span>
+      <span class="nav__hamburger__line"></span>
+      <span class="nav__hamburger__line"></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ── MOBILE MENU ── -->
+<div class="nav__mobile" id="mobileMenu">
+  <button class="nav__mobile-close" id="mobileMenuClose" aria-label="Close menu">
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="3" x2="17" y2="17"/><line x1="17" y1="3" x2="3" y2="17"/></svg>
+  </button>
+  <a href="index.html">Home</a>
+  <a href="products.html">Products</a>
+  <a href="compare.html">Compare</a>
+  <a href="about.html">About</a>
+  <a href="events.html">Events</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<!-- ── PAGE HERO ── -->
+<section class="section section--navy" style="padding-bottom: 2rem;">
+  <div class="container">
+    <h1 style="color:#fff; letter-spacing: 0.04em;" data-i18n="cert_herotitle">Certifications</h1>
+    <p style="color:oklch(1 0 0 / 0.65); max-width:520px; font-size:1rem; line-height:1.7; margin-top:0.5rem;">
+      <span data-i18n="cert_herosub">All HIGHS products are certified to international safety and quality standards by accredited third-party bodies.</span>
+    </p>
+  </div>
+</section>
+
+<!-- ── CERTIFICATES 2x2 GRID ── -->
+<section class="section section--white" style="margin-top:-2rem;">
+  <div class="container">
+    <div class="certs-grid">
+
+      <!-- CE Certificate -->
+      <div class="cert-card" onclick="openLightbox('media/ce-cert-full-1.jpg', 'CE Certificate — European Conformity')">
+        <div class="cert-card__header">
+          <span class="cert-card__badge">CE</span>
+          <span class="cert-card__name" data-i18n="cert_ce_name">European Conformity</span>
+        </div>
+        <div class="cert-card__thumb">
+          <img src="media/ce-cert-full-1.jpg" alt="CE Certificate">
+          <div class="cert-card__zoom">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+          </div>
+        </div>
+        <div class="cert-card__body">
+          <p><strong>Ente Certificazione Macchine (ECM)</strong></p>
+          <p>Directive: 2014/35/EU (Low Voltage) &middot; 2014/30/EU (EMC)</p>
+          <p>Issued: 05 May 2023 &middot; Valid to: 04 May 2028 &middot; Models: W8, W7, NW8, Z8</p>
+        </div>
+      </div>
+
+      <!-- CE Annex I -->
+      <div class="cert-card" onclick="openLightbox('media/ce-cert-full-2.jpg', 'CE Annex I — Technical Standards')">
+        <div class="cert-card__header">
+          <span class="cert-card__badge">CE</span>
+          <span class="cert-card__name" data-i18n="cert_annex">Annex I &mdash; Technical Standards</span>
+        </div>
+        <div class="cert-card__thumb">
+          <img src="media/ce-cert-full-2.jpg" alt="CE Annex I Certificate">
+          <div class="cert-card__zoom">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+          </div>
+        </div>
+        <div class="cert-card__body">
+          <p><strong>Standards Compliance</strong></p>
+          <p>EN IEC 55014-1 &amp; 2 &middot; EN 61000 series</p>
+          <p>EN IEC 60335-1 &amp; 60335-2-32 &middot; EN 62233</p>
+          <p>Certificate No. 4Z230505.TCDD84</p>
+        </div>
+      </div>
+
+      <!-- FCC Certificate -->
+      <div class="cert-card" onclick="openLightbox('media/fcc-cert-full.jpg', 'FCC Certificate — Federal Communications Commission')">
+        <div class="cert-card__header">
+          <span class="cert-card__badge">FCC</span>
+          <span class="cert-card__name" data-i18n="cert_fcc_name">Federal Communications Commission</span>
+        </div>
+        <div class="cert-card__thumb">
+          <img src="media/fcc-cert-full.jpg" alt="FCC Certificate">
+          <div class="cert-card__zoom">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+          </div>
+        </div>
+        <div class="cert-card__body">
+          <p><strong>Supplier&rsquo;s Declaration of Conformity</strong></p>
+          <p>Standard: FCC Part 15 Subpart B</p>
+          <p>Equipment: HIGHS Multi-functional Spa Chair &middot; Models: W8, W7, NW8, Z8</p>
+        </div>
+      </div>
+
+      <!-- ISO 9001 -->
+      <div class="cert-card" onclick="openLightbox('media/cert-iso9001.png', 'ISO 9001:2015 — Quality Management')">
+        <div class="cert-card__header">
+          <span class="cert-card__badge">ISO</span>
+          <span class="cert-card__name" data-i18n="cert_iso_name">ISO 9001:2015 &mdash; Quality Management</span>
+        </div>
+        <div class="cert-card__thumb">
+          <img src="media/cert-iso9001.png" alt="ISO 9001 Certificate">
+          <div class="cert-card__zoom">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+          </div>
+        </div>
+        <div class="cert-card__body">
+          <p><strong>Quality Management System</strong></p>
+          <p>Commitment to consistent quality in design, manufacturing, and customer service.</p>
+          <p>Certificate available on request.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <p style="text-align:center; margin-top:2rem; font-size:0.82rem; color:var(--muted);">
+      <span data-i18n="cert_copies_note">All certificates issued by accredited third-party bodies. Copies available on request.</span>
+    </p>
+  </div>
+</section>
+
+<!-- ── CTA ── -->
+<section class="cta-band">
+  <div class="container">
+    <h2 data-i18n="cert_cta_title">Need Certificate Copies?</h2>
+    <p data-i18n="cert_cta_body">Contact us to request official copies of any certification document.</p>
+    <a href="contact.html" class="btn btn-white" data-i18n="cert_cta_btn">Get in Touch &rarr;</a>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <div class="footer__brand-logo"><img src="media/logolong.png" alt="HIGHS Professional" height="56"></div>
+        <p class="footer__tagline" data-i18n="footer_tagline">Designing and manufacturing professional multi-functional spa chairs. Headquartered in Vancouver, BC.</p>
+        <div class="footer__logo-row">
+          <span class="footer__cert-small">CE</span>
+          <span class="footer__cert-small">FCC</span>
+          <span class="footer__cert-small">ISO 9001</span>
+        </div>
+      </div>
+
+      <div class="footer__col">
+        <div class="footer__col-title" data-i18n="footer_products">Products</div>
+        <ul class="footer__links">
+          <li><a href="products.html" data-i18n="footer_allchairs">All Chairs</a></li>
+          <li><a href="compare.html" data-i18n="footer_comparem">Compare Models</a></li>
+          <li><a href="accessories.html" data-i18n="footer_accessories">Accessories</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <div class="footer__col-title" data-i18n="footer_company">Company</div>
+        <ul class="footer__links">
+          <li><a href="about.html" data-i18n="footer_about">About HIGHS</a></li>
+          <li><a href="events.html" data-i18n="footer_events">Latest Events</a></li>
+          <li><a href="certificates.html" data-i18n="footer_cert">Certification</a></li>
+          <li><a href="https://docs.google.com/gview?url=https://highs-spachair.com/media/2026%20Spa%20Chair%20Catalog.pdf&embedded=true" target="_blank" rel="noopener" data-i18n="footer_catalog">Download Catalog</a></li>
+          <li><a href="contact.html" data-i18n="nav_contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <div class="footer__col-title" data-i18n="footer_contact">Contact</div>
+        <ul class="footer__links">
+          <li><a href="tel:+1-778-714-0320" data-i18n="footer_phone_bc">778-714-0320 (BC)</a></li>
+          <li><a href="tel:+1-949-527-1258" data-i18n="footer_phone_la">949-527-1258 (LA)</a></li>
+          <li data-i18n="footer_addr">Vancouver, BC. Canada</li>
+          <li><a href="/cdn-cgi/l/email-protection#e0898e868fa08889878893ce8c9484" data-i18n="footer_email"><span class="__cf_email__" data-cfemail="432a2d252c032b2a242b306d2f3727">[email&#160;protected]</span></a></li>
+          <li><a href="partner.html" data-i18n="footer_partner">Distribution Partnership Inquiry</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <div class="footer__bottom-left">
+        <a href="https://www.instagram.com/highsprofessional" target="_blank" rel="noopener" class="footer__instagram" aria-label="HIGHS on Instagram">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="20" x="2" y="2" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+          @highsprofessional
+        </a>
+        <a href="https://www.tiktok.com/@HIGHSSPCHAIR" target="_blank" rel="noopener" class="footer__instagram" aria-label="HIGHS on TikTok" >
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg>
+          @HIGHSSPCHAIR
+        </a>
+      </div>
+      <span data-i18n="footer_copy">&copy; 2026 HIGHS PROFESSIONAL. All rights reserved.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ── LIGHTBOX ── -->
+<div id="lightbox" class="lightbox" onclick="closeLightbox()" role="dialog" aria-modal="true" aria-label="Certificate image">
+  <button class="lightbox__close" onclick="closeLightbox()" aria-label="Close">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+  </button>
+  <div class="lightbox__inner" onclick="event.stopPropagation()">
+    <p class="lightbox__caption" id="lightboxCaption"></p>
+    <img id="lightboxImg" src="" alt="">
+  </div>
+</div>
+
+<a href="#" class="back-to-top" id="backToTop" aria-label="Back to top">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+</a>
+
+<style>
+/* ── Certificates grid ── */
+.certs-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  max-width: 960px;
+  margin: 0 auto;
+}
+@media (max-width: 640px) {
+  .certs-grid { grid-template-columns: 1fr; }
+}
+
+/* ── Cert card ── */
+.cert-card {
+  background: var(--cream);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  cursor: pointer;
+  transition: box-shadow 0.2s, border-color 0.2s;
+}
+.cert-card:hover {
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  border-color: var(--gold);
+}
+.cert-card__header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 1.25rem 0.875rem;
+}
+.cert-card__badge {
+  font-family: var(--font-mono);
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--navy);
+  letter-spacing: 0.2em;
+  background: var(--white);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 0.2rem 0.6rem;
+  flex-shrink: 0;
+}
+.cert-card__name {
+  font-size: 0.82rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+.cert-card__thumb {
+  position: relative;
+  overflow: hidden;
+  background: #f0ede8;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  min-height: 350px;
+  display: flex;
+  align-items: flex-start;
+}
+.cert-card__thumb img {
+  width: 100%;
+  height: 350px;
+  object-fit: contain;
+  object-position: top center;
+  display: block;
+  transition: transform 0.25s;
+  background: #f0ede8;
+}
+.cert-card:hover .cert-card__thumb img { transform: scale(1.03); }
+.cert-card__zoom {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(28,43,74,0.5);
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+.cert-card:hover .cert-card__zoom { opacity: 1; }
+.cert-card__body {
+  padding: 0.875rem 1.25rem 1rem;
+}
+.cert-card__body p {
+  font-size: 0.78rem;
+  color: var(--muted);
+  line-height: 1.8;
+  margin: 0 0 0.4rem;
+}
+.cert-card__body p:last-child { margin-bottom: 0; }
+.cert-card__body strong {
+  color: var(--navy);
+  font-weight: 600;
+}
+
+/* ── Lightbox ── */
+.lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(10,15,25,0.92);
+  backdrop-filter: blur(4px);
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+.lightbox.open { display: flex; }
+.lightbox__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  max-width: min(90vw, 900px);
+  width: 100%;
+}
+.lightbox__caption {
+  font-size: 0.85rem;
+  color: rgba(255,255,255,0.7);
+  text-align: center;
+  margin: 0;
+}
+.lightbox img {
+  max-width: 100%;
+  max-height: 80vh;
+  width: auto;
+  height: auto;
+  border-radius: var(--radius-lg);
+  box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+  display: block;
+}
+.lightbox__close {
+  position: absolute;
+  top: 1.25rem;
+  right: 1.5rem;
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.lightbox__close:hover { background: rgba(255,255,255,0.2); }
+</style>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/lang-v2.js"></script>
+<script src="js/translations.js"></script>
+<script src="js/app.js"></script>
+<script>
+const Lang = {
+  key: 'highs_lang', current: 'en',
+  readCookie() { const m = document.cookie.match(/highs_lang=([^;]+)/); return m ? m[1] : null; },
+  saveCookie(lang) { try { document.cookie = 'highs_lang=' + lang + '; path=/; max-age=31536000; SameSite=Lax'; } catch(e) {} },
+  init() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const urlLang = urlParams.get('lang');
+    if (urlLang && translations[urlLang]) { this.current = urlLang; this.saveCookie(urlLang); }
+    else { this.current = this.readCookie() || localStorage.getItem(this.key) || 'en'; }
+    document.documentElement.lang = this.current;
+    this.apply(); this.bindSelector();
+  },
+  set(lang) {
+    if (!translations[lang]) return;
+    this.current = lang; this.saveCookie(lang);
+    try { localStorage.setItem(this.key, lang); } catch(e) {}
+    this.apply(); this.updateButton(); this.closeDropdown();
+  },
+  apply() {
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+      const key = el.getAttribute('data-i18n');
+      if (translations[this.current][key]) el.innerHTML = translations[this.current][key];
+    });
+    document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+      const key = el.getAttribute('data-i18n-placeholder');
+      if (translations[this.current][key]) el.placeholder = translations[this.current][key];
+    });
+    document.querySelectorAll('a[href]').forEach(a => {
+      const href = a.getAttribute('href') || '';
+      if (href.startsWith('#') || href.startsWith('http') || href.startsWith('//') || href.startsWith('mailto') || href.startsWith('tel')) return;
+      try {
+        const url = new URL(href, window.location.href);
+        if (this.current !== 'en') { if (!url.search.includes('lang=')) { url.searchParams.set('lang', this.current); a.setAttribute('href', url.pathname + url.search); } }
+        else { if (url.searchParams.has('lang')) { url.searchParams.delete('lang'); a.setAttribute('href', url.pathname + url.search); } }
+      } catch(e) {}
+    });
+    document.documentElement.lang = this.current;
+  },
+  getLabel(lang) { const labels = { en: 'EN', it: 'IT', fr: 'FR', de: 'DE', es: 'ES' }; return labels[lang] || lang.toUpperCase(); },
+  bindSelector() {
+    const btn = document.getElementById('langSelector'); const dropdown = document.getElementById('langDropdown');
+    if (!btn || !dropdown) return;
+    btn.addEventListener('click', e => { e.stopPropagation(); this.toggleDropdown(); });
+    dropdown.addEventListener('click', e => e.stopPropagation());
+    dropdown.querySelectorAll('[data-lang]').forEach(item => { item.addEventListener('click', () => { this.set(item.getAttribute('data-lang')); }); });
+    document.addEventListener('click', () => this.closeDropdown());
+    this.updateButton();
+  },
+  toggleDropdown() {
+    const dropdown = document.getElementById('langDropdown'); const btn = document.getElementById('langSelector');
+    if (!dropdown || !btn) return;
+    const isOpen = dropdown.classList.toggle('open'); btn.classList.toggle('active', isOpen);
+  },
+  closeDropdown() {
+    const dropdown = document.getElementById('langDropdown'); const btn = document.getElementById('langSelector');
+    if (dropdown) dropdown.classList.remove('open');
+    if (btn) btn.classList.remove('active');
+  },
+  updateButton() {
+    const btn = document.getElementById('langSelector'); if (!btn) return;
+    const label = btn.querySelector('.lang-selector__label');
+    if (label) label.textContent = this.getLabel(this.current);
+    btn.querySelectorAll('.lang-option').forEach(opt => {
+      const isActive = opt.getAttribute('data-lang') === this.current;
+      opt.classList.toggle('is-active', isActive);
+      const check = opt.querySelector('.lang-option__check');
+      if (check) check.style.display = isActive ? '' : 'none';
+    });
+  }
+};
+if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', () => Lang.init()); } else { Lang.init(); }
+</script>
+<script>lucide.createIcons();</script>
+<script>
+// ── Lightbox ──
+function openLightbox(src, caption) {
+  document.getElementById('lightboxImg').src = src;
+  document.getElementById('lightboxCaption').textContent = caption || '';
+  document.getElementById('lightbox').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeLightbox() {
+  document.getElementById('lightbox').classList.remove('open');
+  document.getElementById('lightboxImg').src = '';
+  document.body.style.overflow = '';
+}
+// Close on Escape
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
+</script>
+
+</body>
+</html>
